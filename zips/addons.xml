@@ -1,6 +1,6 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <addons>
-    <addon id="skin.arctic.zephyr.2.resurrection.mod" name="Arctic: Zephyr 2 - Resurrection" provider-name="jurialmunkey, pkscout, nfm886" version="0.3.9">
+    <addon id="skin.arctic.zephyr.2.resurrection.mod" name="Arctic: Zephyr 2 - Resurrection" provider-name="jurialmunkey, pkscout, nfm886" version="0.4.0">
         <requires>
             <import addon="xbmc.gui" version="5.15.0" />
             <import addon="script.skinshortcuts" version="1.1.1" />
@@ -8,6 +8,7 @@
             <import addon="script.image.resource.select" version="3.0.2" /> <!-- not this -->
             <import addon="plugin.program.autocompletion" version="2.0.0" />
             <import addon="plugin.video.themoviedb.helper" version="2.4.36" />
+            <import addon="script.embuary.helper" version="2.0.8" />
             <import addon="resource.images.studios.white" version="0.0.24" />
             <import addon="resource.images.moviegenreicons.transparent" version="0.0.6" />
             <import addon="resource.images.weathericons.outline-hd" version="0.0.3" />
@@ -19,11 +20,10 @@
         </extension>
         <extension point="xbmc.addon.metadata">
             <news>
-                0.3.9
-                    - introducing new home layout - netflix style
-                    - Hungarian language updated
-                    - small fix for rt usermeter flag
-                    - reenabled youtube videos for tests
+                0.4.0
+                    - temporary fix to landscape aspect ratio (small landscape still need a fix)
+                    - added embuary helper as dependency
+                    - introducing new dark netflix style layout
             </news>
             <summary lang="de">Klar, minimalistisch, elegant, einfach, leicht</summary>
             <summary lang="en">Clean, minimal, elegant, simple, light.</summary>
