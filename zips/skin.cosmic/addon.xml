@@ -17,9 +17,7 @@
     <extension point="xbmc.addon.metadata">
 <news>
 1.0.4
-Added: Implemented Weather & Settings widgets
-Changed: Submenu appearance in Vertical home layout
-Testing: Fix for submenu in Vertical layout
+Testing: Fix for submenu
 Changed: Text align in PVRChannelGuide.xml
 </news>
         <summary lang="en_GB">Simple, lightweight and innovative skin by heppen.</summary>
