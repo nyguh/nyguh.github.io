@@ -1,4 +1,4 @@
-<addon id="skin.cosmic" version="1.0.21" name="Cosmic" provider-name="heppen (nfm886)">
+<addon id="skin.cosmic" version="1.0.22" name="Cosmic" provider-name="heppen (nfm886)">
     <requires>
         <import addon="xbmc.gui" version="5.15.0" />
         <import addon="script.skinshortcuts" version="1.1.5" />
@@ -15,13 +15,8 @@
         <res width="1920" height="1080" aspect="16:9" default="true" folder="xml" />
     </extension>
     <extension point="xbmc.addon.metadata">
-<news>
-1.0.21
-Fixed: Highlight colour in most cases
-Added: Option to Enable/Disable colored background
-Added: PlayerProcessInfo button
-Fixed: Highlight colour on some labels
-</news>
+        <news> 1.0.22[CR] Fixed: Recently added tv shows indicator[CR] Fixed: Recently added movies indicator[CR] Fixed: Don't open DialogVideoInfo.xml after clicking on TV Show in widget[CR] Fixed: Some improvements in DialogVideoInfo.xml[CR] Added:
+            Indicators for home widgets[CR] Added: Option to manage info-dialog lists[CR] Changed: Make label in InfoButtons uppercase </news>
         <summary lang="en_GB">Simple, lightweight and innovative skin by heppen.</summary>
         <summary lang="pl_PL">Prosta, lekka i innowacyjna skórka autorstwa heppen.</summary>
         <description lang="en_GB">The skin is designed to allow the user to focus on media consumption. It provides many innovative solutions that every movie lover will appreciate.</description>
