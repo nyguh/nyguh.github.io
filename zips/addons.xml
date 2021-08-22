@@ -96,7 +96,7 @@
         </extension>
     </addon>
     
-    <addon id="repository.heppen" name="heppen's repository" version="1.2.1" provider-name="nfm886">
+    <addon id="repository.heppen" name="heppen's repository" version="2.0.0" provider-name="nfm886 (heppen)">
         <requires>
             <import addon="xbmc.addon" version="12.0.0"/>
         </requires>
@@ -109,7 +109,7 @@
         </extension>
         <extension point="xbmc.addon.metadata">
             <summary>Heppen's Kodi repository</summary>
-            <description>Personal repository for Arctic Zephyr 2 Resurrection.</description>
+            <description>Repository for Cosmic skin</description>
             <disclaimer></disclaimer>
             <platform>all</platform>
             <assets>
