@@ -38,7 +38,7 @@
             </assets>
         </extension>
     </addon>
-    <addon id="skin.arctic.zephyr.2.resurrection.mod" name="Arctic: Zephyr 2 - Resurrection" provider-name="jurialmunkey, pkscout, nfm886" version="0.7.1">
+    <addon id="skin.arctic.zephyr.2.resurrection.mod" name="Arctic: Zephyr 2 - Resurrection" provider-name="jurialmunkey, pkscout, nfm886" version="0.7.2">
         <requires>
             <import addon="xbmc.gui" version="5.15.0" />
             <import addon="script.skinshortcuts" version="1.1.1" />
@@ -59,6 +59,8 @@
         </extension>
         <extension point="xbmc.addon.metadata">
             <news>
+                0.7.2
+                    - Added option to disable channel label in pvr guide
                 0.7.1
                     - Fixed text being truncated
                     - Fixed posters being cut off
