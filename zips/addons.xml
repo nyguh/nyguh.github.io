@@ -21,7 +21,7 @@
       <platform>all</platform>
       <license>Creative Commons Attribution Non-Commercial Share-Alike 4.0</license>
       <forum />
-      <source>https://github.com/nfm886/skin.blue.twilight</source>
+      <source>https://github.com/heppen-dev/skin.blue.twilight</source>
       <assets>
         <icon>resources/icon.png</icon>
         <fanart>resources/fanart.jpg</fanart>
@@ -33,7 +33,7 @@
       </assets>
     </extension>
   </addon>
-  <addon id="skin.cosmic" version="1.0.65" name="Cosmic" provider-name="heppen (nfm886)">
+  <addon id="skin.cosmic" version="1.0.65" name="Cosmic" provider-name="heppen">
     <requires>
       <import addon="xbmc.gui" version="5.15.0" />
       <import addon="script.skinshortcuts" version="1.1.5" />
@@ -58,7 +58,7 @@
       <platform>all</platform>
       <license>Creative Commons Attribution Non-Commercial Share-Alike 4.0</license>
       <forum>https://forum.kodi.tv/showthread.php?tid=363714</forum>
-      <source>https://github.com/nfm886/skin.cosmic</source>
+      <source>https://github.com/heppen-dev/skin.cosmic</source>
       <assets>
         <icon>resources/icon.png</icon>
         <fanart>resources/fanart.jpg</fanart>
@@ -71,7 +71,7 @@
       </assets>
     </extension>
   </addon>
-  <addon id="skin.arctic.zephyr.2.resurrection.mod" name="Arctic: Zephyr 2 - Resurrection" provider-name="jurialmunkey, pkscout, nfm886" version="0.7.5">
+  <addon id="skin.arctic.zephyr.2.resurrection.mod" name="Arctic: Zephyr 2 - Resurrection" provider-name="jurialmunkey, pkscout, heppen" version="0.7.5">
     <requires>
       <import addon="xbmc.gui" version="5.15.0" />
       <import addon="script.skinshortcuts" version="1.1.1" />
@@ -91,7 +91,7 @@
       <res aspect="16:9" default="true" folder="1080i" height="1080" width="1920" />
     </extension>
     <extension point="xbmc.addon.metadata">
-      <news>                0.7.5                    - Revert previous changes in Image_Landscape                0.7.4                    - Fixed icon visibility for pvr                0.7.3                    - Fixed forced view                    - Fix for ratings not showing in video osd                    - Changed default to colorful for rating icons                0.7.2                    - Added option to disable channel label in pvr guide                0.7.1                    - Fixed text being truncated                    - Fixed posters being cut off            </news>
+      <news>0.7.5[CR]Revert previous changes in Image_Landscape0.7.4[CR]Fixed icon visibility for pvr0.7.3[CR]Fixed forced view[CR]Fix for ratings not showing in video osd[CR]Changed default to colorful for rating icons0.7.2[CR]Added option to disable channel label in pvr guide0.7.1[CR]Fixed text being truncated[CR]Fixed posters being cut off</news>
       <summary lang="de">Klar, minimalistisch, elegant, einfach, leicht</summary>
       <summary lang="en">Clean, minimal, elegant, simple, light.</summary>
       <summary lang="en_AU">Clean, minimal, elegant, simple, light.</summary>
@@ -112,7 +112,7 @@
       <platform>all</platform>
       <license>Creative Commons Attribution Non-Commercial Share-Alike 4.0</license>
       <forum>https://forum.kodi.tv/showthread.php?tid=362941</forum>
-      <source>https://github.com/nfm886/skin.arctic.zephyr.2.resurrection.mod</source>
+      <source>https://github.com/heppen-dev/skin.arctic.zephyr.2.resurrection.mod</source>
       <assets>
         <icon>icon.png</icon>
         <fanart>fanart.jpg</fanart>
@@ -125,15 +125,15 @@
       </assets>
     </extension>
   </addon>
-  <addon id="repository.heppen" name="heppen's repository" version="3.0.0" provider-name="nfm886 (heppen)">
+  <addon id="repository.heppen" name="heppen's repository" version="3.0.1" provider-name="heppen">
     <requires>
       <import addon="xbmc.addon" version="12.0.0"/>
     </requires>
     <extension point="xbmc.addon.repository" name="Heppen's Repository">
       <dir minversion="19.0">
-        <info>https://raw.githubusercontent.com/nfm886/repository.heppen/main/zips/addons.xml</info>
-        <checksum>https://raw.githubusercontent.com/nfm886/repository.heppen/main/zips/addons.xml.md5</checksum>
-        <datadir zip="true">https://raw.github.com/nfm886/repository.heppen/main/zips/</datadir>
+        <info>https://raw.githubusercontent.com/heppen-dev/repository.heppen/main/zips/addons.xml</info>
+        <checksum>https://raw.githubusercontent.com/heppen-dev/repository.heppen/main/zips/addons.xml.md5</checksum>
+        <datadir zip="true">https://raw.github.com/heppen-dev/repository.heppen/main/zips/</datadir>
       </dir>
     </extension>
     <extension point="xbmc.addon.metadata">

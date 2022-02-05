@@ -1,4 +1,4 @@
-<addon id="skin.arctic.zephyr.2.resurrection.mod" name="Arctic: Zephyr 2 - Resurrection" provider-name="jurialmunkey, pkscout, nfm886" version="0.7.5">
+<addon id="skin.arctic.zephyr.2.resurrection.mod" name="Arctic: Zephyr 2 - Resurrection" provider-name="jurialmunkey, pkscout, heppen" version="0.7.5">
     <requires>
         <import addon="xbmc.gui" version="5.15.0" />
         <import addon="script.skinshortcuts" version="1.1.1" />
@@ -53,7 +53,7 @@
         <platform>all</platform>
         <license>Creative Commons Attribution Non-Commercial Share-Alike 4.0</license>
         <forum>https://forum.kodi.tv/showthread.php?tid=362941</forum>
-		<source>https://github.com/nfm886/skin.arctic.zephyr.2.resurrection.mod</source>
+		<source>https://github.com/heppen-dev/skin.arctic.zephyr.2.resurrection.mod</source>
         <assets>
             <icon>icon.png</icon>
             <fanart>fanart.jpg</fanart>
