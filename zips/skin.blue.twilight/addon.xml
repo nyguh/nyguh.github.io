@@ -1,4 +1,4 @@
-<addon id="skin.blue.twilight" version="1.1.1" name="Blue Twilight" provider-name="heppen">
+<addon id="skin.blue.twilight" version="1.1.3" name="Blue Twilight" provider-name="heppen">
   <requires>
     <import addon="xbmc.gui" version="5.15.0"/>
     <import addon="script.skinshortcuts" version="1.1.5"/>
@@ -11,7 +11,7 @@
     <res width="1920" height="1080" aspect="16:9" default="true" folder="xml"/>
   </extension>
   <extension point="xbmc.addon.metadata">
-    <news>Fixed: Selectbox width over landscape focused layout[CR]Added: Header widget label for square aspect ratio[CR]Changed: Left/right arrows in widget sections[CR]Update: Textures.xbt</news>
+    <news>Added: Watched indicators to header banners[CR]Added: Option to enable fixed scrolling for each widget category[CR]Changed: Skinshortcuts Layout[CR]Tweaks to button size in skinshortcuts[CR]Fixed: Visible condition in Fixed scrolling switch[CR]Redesigned settings[CR]Added: Topbar to settings home page[CR]Open new settings screen without main settings page[CR]Added: Add-ons and File Manager shortcuts and option to disable main menu tiles skip[CR]Changed: DialogMediaSource layout tweaks[CR]Changed: Default colour palette[CR]Removed Light colour palette</news>
     <summary lang="en_GB">Simple. Lightweight. Elegant. That's all you need to enjoy Kodi.</summary>
     <summary lang="pl_PL">Prosto. Lekko. Elegancko. To wszystko czego potrzebujesz do rozrywki z Kodi.</summary>
     <description lang="en_GB">The skin is designed to allow the user to focus on media consumption. It provides many innovative solutions that every movie lover will appreciate.</description>
