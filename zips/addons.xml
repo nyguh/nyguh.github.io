@@ -1,5 +1,59 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <addons>
+    <addon id="plugin.video.odysee" name="Odysee (Unofficial)" version="1.1.0" provider-name="heppen">
+        <requires>
+            <import addon="xbmc.python" version="3.0.0"/>
+            <import addon="xbmc.addon" version="18.9.701"/>
+            <import addon="script.module.libka" version="0.0.5"/>
+        </requires>
+        <extension point="xbmc.python.pluginsource" library="addon.py">
+            <provides>video</provides>
+        </extension>
+        <extension point="xbmc.addon.metadata">
+            <summary lang="en_GB">Video add-on for Odysee</summary>
+            <description lang="en_GB">This is Unofficial add-on for Odysee</description>
+            <disclaimer lang="en_GB">This is an unofficial add-on that only allows you to view content. For full
+                content, please visit the official site.
+            </disclaimer>
+            <language>en</language>
+            <platform>all</platform>
+            <license>GPL-2.0</license>
+            <website>https://odysee.com</website>
+            <source>https://github.com/kodi-pl-addons/plugin.video.odysee</source>
+            <news>Rewritten Search function using KodiPL library module</news>
+            <assets>
+                <icon>resources/icon.png</icon>
+                <fanart>resources/fanart.jpg</fanart>
+            </assets>
+        </extension>
+    </addon>
+    <addon id="script.module.libka" version="0.0.5" name="Kodi-PL Library Module" provider-name="rysson">
+        <requires>
+            <import addon="xbmc.python" version="3.0.0"/>
+            <import addon="script.module.requests"/>
+            <import addon="script.module.urllib3"/>
+        </requires>
+        <extension point="xbmc.gui.skin" debugging="false">
+            <res width="1920" height="1080" aspect="16:9" default="true" folder="xml"/>
+        </extension>
+        <extension point="xbmc.python.module" library="lib"/>
+        <extension point="xbmc.addon.metadata">
+            <news>v0.0.5[CR][new] change ID to script.module.libka[CR]v0.0.4[CR][add] storage[CR][new] settings, search,
+                routing module[CR][fix] routes, menu, folder etc.[CR]v0.0.2[CR][new] drop support for PY2 and
+                K18[CR][new] initial
+            </news>
+            <summary lang="en_GB">Helper library for Kodi-PL Addons</summary>
+            <summary lang="pl_PL">Biblioteka dla dodatków Kodi-PL</summary>
+            <platform>all</platform>
+            <license>MIT</license>
+            <forum/>
+            <source>https://github.com/kodi-pl/kodipl/script.module.kodipl</source>
+            <assets>
+                <icon>resources/icon.png</icon>
+                <fanart>resources/fanart.jpg</fanart>
+            </assets>
+        </extension>
+    </addon>
     <addon id="skin.blue.twilight" version="1.1.4" name="Blue Twilight" provider-name="heppen">
         <requires>
             <import addon="xbmc.gui" version="5.15.0"/>
@@ -85,7 +139,8 @@
             </assets>
         </extension>
     </addon>
-    <addon id="skin.arctic.zephyr.2.resurrection.mod" name="Arctic: Zephyr 2 - Resurrection" provider-name="jurialmunkey, pkscout, heppen" version="0.7.5">
+    <addon id="skin.arctic.zephyr.2.resurrection.mod" name="Arctic: Zephyr 2 - Resurrection"
+           provider-name="jurialmunkey, pkscout, heppen" version="0.7.5">
         <requires>
             <import addon="xbmc.gui" version="5.15.0"/>
             <import addon="script.skinshortcuts" version="1.1.1"/>
@@ -159,13 +214,9 @@
         <extension point="xbmc.addon.repository" name="Heppen's Repository">
             <dir minversion="19.0">
                 <info>https://raw.githubusercontent.com/heppen-dev/repository.heppen/main/zips/addons.xml</info>
-                <checksum>https://raw.githubusercontent.com/heppen-dev/repository.heppen/main/zips/addons.xml.md5</checksum>
+                <checksum>https://raw.githubusercontent.com/heppen-dev/repository.heppen/main/zips/addons.xml.md5
+                </checksum>
                 <datadir zip="true">https://raw.github.com/heppen-dev/repository.heppen/main/zips/</datadir>
-            </dir>
-            <dir minversion="19.0.0">
-                <info compressed="false">https://repo.kodipl.net/pool/addons.xml</info>
-                <checksum compressed="false">https://repo.kodipl.net/pool/addons.xml.md5</checksum>
-                <datadir zip="true">https://repo.kodipl.net/pool</datadir>
             </dir>
         </extension>
         <extension point="xbmc.addon.metadata">

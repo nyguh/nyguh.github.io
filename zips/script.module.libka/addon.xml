@@ -1,0 +1,24 @@
+<addon id="script.module.libka" version="0.0.5" name="Kodi-PL Library Module" provider-name="rysson">
+    <requires>
+        <import addon="xbmc.python" version="3.0.0"/>
+        <import addon="script.module.requests"/>
+        <import addon="script.module.urllib3"/>
+    </requires>
+    <extension point="xbmc.gui.skin" debugging="false">
+        <res width="1920" height="1080" aspect="16:9" default="true" folder="xml"/>
+    </extension>
+	<extension point="xbmc.python.module" library="lib" />
+    <extension point="xbmc.addon.metadata">
+        <news>v0.0.5[CR][new] change ID to script.module.libka[CR]v0.0.4[CR][add] storage[CR][new] settings, search, routing module[CR][fix] routes, menu, folder etc.[CR]v0.0.2[CR][new] drop support for PY2 and K18[CR][new] initial</news>
+        <summary lang="en_GB">Helper library for Kodi-PL Addons</summary>
+		<summary lang="pl_PL">Biblioteka dla dodatków Kodi-PL</summary>
+        <platform>all</platform>
+        <license>MIT</license>
+        <forum/>
+        <source>https://github.com/kodi-pl/kodipl/script.module.kodipl</source>
+        <assets>
+            <icon>resources/icon.png</icon>
+            <fanart>resources/fanart.jpg</fanart>
+        </assets>
+    </extension>
+</addon>
