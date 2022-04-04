@@ -23,8 +23,8 @@
     <source>https://github.com/heppen-dev/plugin.video.tvsmartgo</source>
     <news>Added xbmcplugin.SORT_METHOD_TITLE for livetv[CR]Added title and plot to info labels</news>
     <assets>
-        <icon>resources/icon.png</icon>
-        <fanart>resources/fanart.jpg</fanart>
+        <icon>icon.png</icon>
+        <fanart>fanart.jpg</fanart>
     </assets>
   </extension>
 </addon>
