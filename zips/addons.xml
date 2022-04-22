@@ -38,6 +38,35 @@
             </assets>
         </extension>
     </addon>
+    <addon id="plugin.video.tvpgo" name="TVP GO" version="1.0.0" provider-name="heppen-dev, zuzia-dev">
+      <requires>
+        <import addon="xbmc.python" version="3.0.0"/>
+        <import addon="script.module.routing" />
+        <import addon="script.module.requests" />
+        <import addon="script.module.inputstreamhelper"/>
+      </requires>
+      <extension point="xbmc.python.pluginsource" library="main.py">
+        <provides>video</provides>
+      </extension>
+      <extension point="xbmc.addon.metadata">
+        <description lang="en">TVP GO</description>
+	<description lang="pl">TVP GO</description>
+	<summary lang="en">TVP GO</summary>
+	<summary lang="pl">TVP GO</summary>
+	<disclaimer lang="en">This add-on is unofficial and is not endorsed or supported by TVP. Any trademarks used belong to their owning companies and organisations.</disclaimer>
+	<disclaimer lang="pl">Ten dodatek jest nieoficjalny, nie jest wspierany ani popierany przez firmę TVP. Wszelkie użyte znaki towarowe należą do firm i organizacji będących ich właścicielami.</disclaimer>
+	<language>en, pl</language>
+	<platform>all</platform>
+	<license>MIT</license>
+        <website>https://kodi-addons.pl</website>
+        <source>https://github.com/heppen-dev/plugin.video.tvpgo</source>
+        <news>Initial release</news>
+        <assets>
+            <icon>resources/icon.png</icon>
+            <fanart>resources/fanart.png</fanart>
+        </assets>
+      </extension>
+    </addon>
     <addon id="plugin.video.flixclassic" name="Flix Classic" version="1.0.0" provider-name="heppen-dev, zuzia-dev">
         <requires>
             <import addon="xbmc.python" version="3.0.0"/>
