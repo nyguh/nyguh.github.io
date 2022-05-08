@@ -99,6 +99,8 @@
     <addon id="plugin.video.tvsmartgo" name="Vectra TV Smart GO" version="1.0.6" provider-name="heppen-dev, zuzia-dev">
       <requires>
         <import addon="xbmc.python" version="3.0.0"/>
+        <import addon="script.module.iso8601" version="0.1.12" />
+    	<import addon="script.module.pysocks" version="1.6.8" />
         <import addon="script.module.requests" />
         <import addon="script.module.routing" />
         <import addon="script.module.inputstreamhelper"/>
