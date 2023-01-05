@@ -116,7 +116,7 @@
             </assets>
         </extension>
     </addon>
-    <addon id="script.skinhelper" name="SkinHelper" version="0.0.2" provider-name="heppen">
+    <addon id="script.skinhelper" name="SkinHelper" version="0.0.3" provider-name="heppen">
         <requires>
             <import addon="xbmc.python" version="3.0.0"/>
             <import addon="script.module.pil"/>
