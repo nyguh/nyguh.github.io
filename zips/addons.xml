@@ -34,7 +34,7 @@
     </addon>
     <addon id="skin.blue.twilight" version="1.2.7" name="Blue Twilight" provider-name="heppen">
         <requires>
-            <import addon="xbmc.gui" version="5.15.0"/>
+            <import addon="xbmc.gui" version="5.14.0"/>
             <import addon="script.skinshortcuts" version="1.1.5"/>
             <import addon="plugin.video.themoviedb.helper" version="4.3.0"/>
             <import addon="script.artistslideshow" version="3.3.2"/>
@@ -68,7 +68,7 @@
     </addon>
     <addon id="skin.arctic.zephyr.2.resurrection.mod" name="Arctic: Zephyr 2 - Resurrection" provider-name="jurialmunkey, pkscout, heppen" version="1.0.3">
         <requires>
-            <import addon="xbmc.gui" version="5.15.0" />
+            <import addon="xbmc.gui" version="5.14.0" />
             <import addon="script.skinshortcuts"/>
             <import addon="script.skinhelper"/>
             <import addon="plugin.video.themoviedb.helper"/>
@@ -118,7 +118,7 @@
     </addon>
     <addon id="script.skinhelper" name="SkinHelper" version="0.0.3" provider-name="heppen">
         <requires>
-            <import addon="xbmc.python" version="3.0.0"/>
+            <import addon="xbmc.python" version="2.1.0"/>
             <import addon="script.module.pil"/>
         </requires>
         <extension point="xbmc.python.script" library="default.py">
